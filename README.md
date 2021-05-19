@@ -1,5 +1,7 @@
 # BhavCopy
 
+![Screenshot_1](https://user-images.githubusercontent.com/40784971/118812119-68bcaf00-b8cb-11eb-920a-f87bea3892ef.png)
+
 ### Introduction:
 
 This application is created as an exercise to download BSE bhavcopy from its site to parse and save into the Redis.
