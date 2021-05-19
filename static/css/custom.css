@@ -1,0 +1,102 @@
+* {
+    font-family: 'Handlee', cursive;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.disabled {
+    cursor: progress;
+}
+
+.shadow {
+    box-shadow: 0 0 20px #787878 !important;
+}
+
+/* ************************* Background ************************* */
+.bg-green {
+    background-color: #5dc953;
+}
+
+.bg-red {
+    background-color: #ed3944;
+}
+
+.bg-yellow {
+    background-color: #f7bb44;
+}
+
+.bg-blue {
+    background-color: #03a9f4;
+}
+
+.bg-grey {
+    background-color: #424242;
+}
+
+/* ************************* Button ************************* */
+.btn {
+    border-radius: 2rem;
+    box-shadow: 5px 5px 10px #8499ac;
+    transition: ease-in-out .5s;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 5px #4d5f70;
+}
+
+.btn:focus {
+    box-shadow: 2px 2px 5px #494949;
+}
+
+.btn-blue {
+    color: #ffffff;
+    background-color: #03a9f4;
+    border-color: #03a9f4;
+    background-image: linear-gradient(to right, #51c3d7, #3187c1);
+}
+
+.btn-blue:hover {
+    color: #ffffff;
+    background-color: #129fdc;
+    border-color: #129fdc;
+}
+
+
+.btn-outline-blue {
+    color: #03a9f4;
+    background-color: #ffffff;
+    border-color: #03a9f4;
+}
+
+.btn-outline-blue:hover {
+    color: #ffffff;
+    background-color: #129fdc;
+    border-color: #129fdc;
+    background-image: linear-gradient(to right, #51c3d7, #3187c1);
+}
+
+
+.btn:disabled {
+    color: #ffffff;
+    cursor: progress;
+    box-shadow: none;
+    pointer-events: inherit;
+}
+
+/* ************************* Progress ************************* */
+.progress {
+    border-radius: 2rem;
+}
+
+.progress-bar-striped {
+    background-color: #60c2d7;
+    background-image: linear-gradient(45deg, rgba(49, 135, 193, 0.4) 25%, transparent 25%, transparent 50%, rgba(49, 135, 193, 0.4) 50%, rgba(49, 135, 193, 0.4) 75%, transparent 75%, transparent)
+}
